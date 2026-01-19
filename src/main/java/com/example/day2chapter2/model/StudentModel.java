@@ -6,11 +6,6 @@ public class StudentModel {
     private String name;
     private String email;
 
-    public void Student(int id,String name,String email){
-        this.id=id;
-        this.name=name;
-        this.email=email;
-    }
 
     public int getId() {
         return id;
@@ -35,4 +30,13 @@ public class StudentModel {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public StudentModel(int id,String name,String email){
+        this.id=id;
+        this.name=name;
+        this.email=email;
+    }
+
+
+
 }
